@@ -6,7 +6,6 @@
   "description": "Manager de bibliothèque pdf",
  
   "content_scripts": [{
-    "css": ["styles.css"],
     "js": ["content.js"],
     "matches": ["https://black-book-editions.fr/mon_compte.php?a=pdf*"]
   }]
